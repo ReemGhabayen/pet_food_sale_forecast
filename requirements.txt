@@ -1,0 +1,6 @@
+conda create --name ds python=3.9
+conda activate ds
+pip install notebook
+conda install pandas 
+conda install -c conda-forge xgboost
+conda install -c plotly plotly=5.10.0
